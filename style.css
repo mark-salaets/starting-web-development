@@ -16,8 +16,16 @@ h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
-.bold {
-  font-weight: 700;
+header h1, header h2 {
+  text-align: center;
+}
+
+header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  border-radius: 50%;
 }
 
 header, nav, .content {
@@ -37,16 +45,8 @@ nav {
   color: gray;
 }
 
-header h1, header h2 {
-  text-align: center;
-}
-
-header img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid black;
-  border-radius: 50%;
+nav a {
+  color: inherit;
 }
 
 ul {
@@ -78,8 +78,8 @@ ul li {
   color: white;
 }
 
-nav a {
-  color: inherit;
+.content h2 {
+  text-align: center;
 }
 
 .movies {
@@ -96,9 +96,5 @@ nav a {
 }
 
 .movies h3 {
-  text-align: center;
-}
-
-.content h2 {
   text-align: center;
 }
